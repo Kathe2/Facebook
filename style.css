@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color:#F0F2F5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left > h1{
+    
+    color: #1877F2;
+    font-weight: 400px;
+    font-size: 60px;
+    position: relative;
+    right: 292px;
+    top: 140px;
+}
+
+.left > p{
+    
+    font-size: 25px;
+    text-align: start;
+    position: relative;
+    top: 140px;
+    right:295px;
+    width: 350px;
+}
+
+.right{
+    border: none;
+    height: 11cm;
+    width: 11cm;
+    position: relative;
+    left: 264px;
+    bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:0px 5px 20px #rgb(150, 141, 141)
+
+}
+
+.right > Input{
+     border:1px solid rgb(184, 182, 182);
+     border-radius: 5px;
+     height: 55px;
+     width: 364px;
+     position: relative;
+     left: 25px;
+     top: 20px;
+     padding-left:15px;
+     font-size: medium;
+     justify-content: space-between;
+     justify-items: center;
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+}
+
+.btn-login{
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 364px;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    background-color: #1877F2;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right > a{
+    
+    color: #1877F2;
+    position: relative;
+    top: 40px;
+    left: 25px;
+    height: 40px;
+    width: 364px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.right > hr{
+    position: relative;
+    top: 60px;
+    color:1px solid rgb(184, 182, 182);
+}
+
+.create{
+    border: none;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    position: relative;
+    top:90px;
+    left: 90px;
+    background-color: #42B72A;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.linkpage{
+    
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-style: bold inherit;
+    font-size: 20px;
+}
+.page{
+    position: relative;
+    left: 255px;
+    bottom: 30px;
+}
+
+footer{
+    height:200px;
+}
+
+.idiomas{
+    
+    color:#8A8D91;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+footer > hr{
+    position: relative;
+    top: 30px;
+}
+
+.todos{
+    
+    position: relative;
+    width: 999px;
+    height: 150px;
+    top: 40px;
+    justify-content: space-between;
+    justify-items: auto;
+    
+}
+
+.outros{
+    
+    color: #8A8D91;
+    position: relative;
+    text-decoration: none;
+    top:1px;
+    padding: 5px;
+}
+
+.meta{
+    position: relative;
+    top: 40px;
+    color: #8A8D91;
+    font-size: small;
+}
+
