@@ -1,0 +1,43 @@
+@media (max-width:700px){
+   main{
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     flex-direction: column;
+     width: 100vw;
+    }
+
+    .left h1{
+        transform: translate(18rem, -12rem);
+        font-size: 35px;
+    }
+
+    .left p{
+        transform: translate(18rem, -12rem);
+        font-size: 25px;
+    }
+
+    .right{
+        transform: translate(-18rem, 2rem);
+        width: 80vw;
+    }
+
+    .right input, .btn-login, .right a{
+       width: 250px;
+    }
+
+    .create{
+        transform: translate(-3.3rem);
+    }
+
+    .page{
+        width: 80vw;
+        transform: translate(-17.5rem, 3em);
+    }
+
+    footer{
+        width: 100vw;
+        text-size-adjust: 100vw;
+    }
+   
+}
